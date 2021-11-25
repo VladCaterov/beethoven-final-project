@@ -1,0 +1,44 @@
+.wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:90vh;
+}
+
+.content__image-container{
+    height:26vh;
+    width:26vw;
+    position:relative;
+}
+
+.content__info-container{
+    height:30vh;
+    width:26vw;
+    background-color:black;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 0;
+}
+
+.image-container__image{
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.background-div{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:fixed;
+    z-index: -1;
+}
+
+.background-div__blur{
+    filter:blur(8px) brightness(60%);
+    transform: scale(1.2) rotate(180deg);
+}
