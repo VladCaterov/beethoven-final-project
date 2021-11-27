@@ -17,10 +17,32 @@
   position: relative;
   margin: 0px;
 }
+.head-container {
+  margin: 20px;
+}
+.redirect-container {
+  float: left;
+  overflow: hidden;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+}
+.redirect-container__button {
+  position: relative;
+  top: 15px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: peachpuff;
+  border-radius: 100%;
+}
 .header-container {
-  position: absolute;
+  float: right;
+  overflow: hidden;
+
+  /* position: absolute; */
   box-shadow: rgba(255, 236, 236, 0.35) 5px 5px 20px;
-  margin-top: 40px;
+
   left: 20px;
   width: 500px;
   border-radius: 10px;

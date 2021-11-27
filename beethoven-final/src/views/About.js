@@ -1,20 +1,30 @@
 import React from 'react';
 import './css/about.css';
-
+import {Link} from "react-router-dom";
 const About = () => {
+    
     return (
     
     <div className= "container">
         <div className= "container-image"></div>
         <div className= "about-container">
-            <div className="header-container">
-                <h1 className="header-container__h1">About Our Project</h1> 
-                <p className="header-container__p">
-                    Made with love by Ekagra Luthra and Vladimir Caterov ♥
-                </p>
-            </div> 
+            <div className="head-container">
+                <div className="redirect-container">
+                    <Link to='/'>
+                        <button className="redirect-container__button">
+                            <img src="/images/back.svg" alt="Go Back Home"/>
+                        </button>
+                    </Link>
+                </div>
+                <div className="header-container">
+                    <h1 className="header-container__h1">About Our Project</h1> 
+                    <p className="header-container__p">
+                        Made with love by Ekagra Luthra and Vladimir Caterov ♥
+                    </p>
+                </div> 
+            </div>
             <div className= "description-container">
-                <h2 className="description-container__h2">Description</h2>
+                <h2 className="description-cont ainer__h2">Description</h2>
                 <p className="description-container__p">Hello World</p>
             </div>
             <div className="resources-container">
