@@ -15,10 +15,54 @@
 .about-container {
   display: flex;
   position: relative;
-  margin: 0px;
+
+  padding: 2%;
+  -moz-animation: fadein 2s; /* Firefox */
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s; /* Opera */
+  /* opacity: 0;
+  transition: opacity 1s;
+  -webkit-transition: background 1s; */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .head-container {
-  margin: 20px;
+  float: left;
+  position: relative;
+  left: 0%;
 }
 .redirect-container {
   float: left;
@@ -35,9 +79,14 @@
   height: 100px;
   background-color: peachpuff;
   border-radius: 100%;
+  border-style: double;
+}
+.redirect-container__button:hover {
+  background-color: rgb(240, 192, 150);
+  cursor: pointer;
 }
 .header-container {
-  float: right;
+  float: left;
   overflow: hidden;
 
   /* position: absolute; */
@@ -60,13 +109,19 @@
   font-size: 18px;
   font-weight: 500;
 }
-
+.no-header-container {
+  float: left;
+  position: fixed;
+  height: 700px;
+  top: 20%;
+  left: 3%;
+}
 .description-container {
-  position: absolute;
+  /* position: absolute; */
   box-shadow: rgba(255, 236, 236, 0.35) 5px 5px 20px;
   top: 250px;
-  left: 20px;
-  width: 900px;
+  float: left;
+  width: 50rem;
   height: 700px;
   background-color: peachpuff;
   border-radius: 10px;
@@ -82,15 +137,11 @@
 }
 
 .resources-container {
-  box-shadow: rgba(255, 236, 236, 0.35) 5px 5px 20px;
-  margin-top: 40px;
-  position: absolute;
-  align-content: space-between;
-  width: 500px;
-  height: 920px;
-  background-color: peachpuff;
-  right: 50px;
-
+  /* box-shadow: rgba(255, 236, 236, 0.35) 5px 5px 20px; */
+  /* position: absolute; */
+  /* left: 0%;
+  top: 200px; */
+  float: left;
   border-radius: 10px;
 }
 
@@ -100,19 +151,78 @@
 
 .resource-container__img {
   position: relative;
-  left: 25%;
+  /* filter: hue-rotate(180deg); */
+  /* brightness(118%) contrast(129%); */
+  fill: peachpuff;
   width: 150px;
   height: 200px;
-  padding-left: 50px;
+}
+svg {
+  fill: peachpuff !important;
 }
 
+.resource-container__img--larger,
 .resource-container__img:hover {
   width: 170px;
   height: 220px;
   cursor: pointer;
 }
 
-.resource-container__p {
+.beethoven-9th {
+  position: fixed;
+  border-radius: 5px;
+  left: 62%;
+  top: 20%;
+  width: 615px;
+  height: 615px;
+}
+/* .resource-container__p {
   text-align: center;
   font-weight: 500;
+} */
+
+.tooltip {
+  position: relative;
+}
+.tooltip .tooltiptext {
+  margin-top: 30px;
+  visibility: hidden;
+  width: auto;
+  min-width: 200px;
+  max-width: 300px;
+  max-height: 200px;
+  background-color: peachpuff;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 10px 0;
+
+  top: -5px;
+  left: 110%;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%; /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent peachpuff transparent transparent;
 }
