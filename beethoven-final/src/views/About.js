@@ -29,7 +29,48 @@ const About = () => {
             <div className="no-header-container">
                 <div className= "description-container">
                     <h2 className="description-container__h2">Description</h2>
-                    <p className="description-container__p">Hello World</p>
+                    <div className="main-heading-border"></div>
+                    <h3 className="description-container__h3">Why did we decide to do this?</h3>
+                    <p className="description-container__p">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum."
+                    </p>
+                    <h3 className="description-container__h3">Why did we pick this research?</h3>
+                    <p className="description-container__p">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum."
+                    </p>
+                    <div className="description-row-container">
+                        <h3 className="description-row-container__h3">What did we learn from this?</h3>
+                        <p className="description-row-container__p">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit anim id est laborum."
+                        </p>
+                    </div>
+                    <div className="description-row-container2">
+                        <h3 className="description-row-container__h3">What did we learn from this?</h3>
+                        <p className="description-row-container__p">
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit anim id est laborum."
+                        </p>
+                    </div>
+                    
                 </div>
                 <div className="resources-container">
                     <div className = "resource-container">
@@ -49,7 +90,8 @@ const About = () => {
                         {/* <p className="resource-container__p">Emotional Reception of Ludwig van Beethoven's Music - The Authors Own Research</p> */}
                     </div>
                     <div className="resource-container">
-                        <a href="https://link.springer.com/content/pdf/10.1007/s10548-012-0227-0.pdf" rel="noreferrer" target="_blank"> 
+                        {/* <a href="https://link.springer.com/content/pdf/10.1007/s10548-012-0227-0.pdf" rel="noreferrer" target="_blank">  */}
+                        <a href="https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1005&context=unpresssamples" rel="noreferrer" target="_blank">
                             <div className="tooltip">
                                 {/* <img src="/images/pdf_logo.png"
                                 alt="Emotions, Arousal, and Frontal Alpha Rhythm Asymmetry During Beethoven’s 5th Symphony"
@@ -57,9 +99,11 @@ const About = () => {
                                 className="resource-container__img"
                                 /> */}
                                 {pdf_file}
-                                <span className="tooltiptext">Emotions, Arousal, and Frontal Alpha Rhythm Asymmetry During Beethoven’s 5th Symphony</span>
+                                {/* <span className="tooltiptext">Emotions, Arousal, and Frontal Alpha Rhythm Asymmetry During Beethoven’s 5th Symphony</span> */}
+                                <span className="tooltiptext">The Critical Reception of Beethoven's Compositions by His German Contemporaries, Volume 2</span>
                             </div>
                         </a>
+                        {/* </a> */}
 
                         {/* <p className="resource-container__p">Emotions, Arousal, and Frontal Alpha Rhythm Asymmetry During Beethoven’s 5th Symphony</p> */}
 

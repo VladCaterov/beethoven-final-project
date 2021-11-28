@@ -17,9 +17,9 @@
   position: relative;
 
   padding: 2%;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s;
-  -o-animation: fadein 2s; /* Opera */
+  -moz-animation: fadein 3s; /* Firefox */
+  -webkit-animation: fadein 3s;
+  -o-animation: fadein 3s; /* Opera */
   /* opacity: 0;
   transition: opacity 1s;
   -webkit-transition: background 1s; */
@@ -125,15 +125,34 @@
   height: 700px;
   background-color: peachpuff;
   border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-
+.main-heading-border {
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 5px dotted black;
+}
+.description-row-container {
+  float: left;
+}
+.description-row-container2 {
+  float: right;
+}
 .description-container__h2,
-.description-container__p {
+.description-container__h3,
+.description-container__p,
+.description-row-container__h3,
+.description-row-container__p {
   margin-left: 20px;
 }
 
-.description-container__p {
+.description-container__p,
+.description-row-container__p {
   font-weight: 500;
+  position: relative;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .resources-container {
