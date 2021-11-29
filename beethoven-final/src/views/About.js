@@ -59,21 +59,18 @@ const About = () => {
                             deserunt mollit anim id est laborum."
                         </p>
                     </div>
-                    <div className="description-row-container2">
-                        <h3 className="description-row-container__h3">What did we learn from this?</h3>
+                    <div className="description-row-container">
+                        <h3 className="description-row-container__h3">Why we used Wombo?</h3>
                         <p className="description-row-container__p">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                            deserunt mollit anim id est laborum."
+                            <a href="https://www.wombo.art/" rel="noreferrer" target="_blank">Dream by Wombo</a> is an app that was created by a group of University of Toronto students
+                            that creates AI-generated photos by providing a prompt and style. This provided a great and
+                            convenient opportunity to input the emotions we found on some of our research because some of it did not have any images.
                         </p>
                     </div>
                     
                 </div>
                 <div className="resources-container">
-                    <div className = "resource-container">
+                    <div className  = "resource-container">
                         <a href="https://www.researchgate.net/publication/342523101_Emotional_Reception_of_Ludwig_van_Beethoven%27s_Music_-_The_Authors_Own_Research" rel="noreferrer" target="_blank"> 
                             <div className="tooltip">
                                 

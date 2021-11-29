@@ -136,9 +136,7 @@
 .description-row-container {
   float: left;
 }
-.description-row-container2 {
-  float: right;
-}
+
 .description-container__h2,
 .description-container__h3,
 .description-container__p,
@@ -153,6 +151,10 @@
   position: relative;
   padding-left: 2%;
   padding-right: 2%;
+}
+
+.description-row-container__p {
+  max-width: 370px;
 }
 
 .resources-container {
