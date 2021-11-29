@@ -3,7 +3,18 @@
     align-items: center;
     justify-content: center;
     width:100vw;
-    height:90vh;
+    height:100vh;
+}
+.content__audio-container{
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    padding-bottom:10px;
+}
+
+.content-container{
+    height:50%;
 }
 
 .content__image-container{
@@ -15,22 +26,29 @@
 .content__info-container{
     height:30vh;
     width:26vw;
-    background-color:black;
-    opacity: 0.5;
+    opacity: 0.6;
     position: absolute;
     z-index: 0;
+}
+
+.content__info-container p{
+    color:white;
+    font-size: 20px;
+    background-color:black;
+    box-shadow: 0 0 15px 5px white;
+    font-size: 14pt;
 }
 
 .image-container__image{
     background-size:cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
-    
+    max-width: 100%;
+    box-shadow: 0 0 15px 5px white;
 }
 
 .background-div{
-    width: 100%;
+    width: 83.3vw;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
