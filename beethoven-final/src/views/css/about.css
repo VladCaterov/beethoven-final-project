@@ -21,6 +21,7 @@
 
 .about-container {
   position: relative;
+  /*  */
   -moz-animation: fadein 3s; /* Firefox */
   -webkit-animation: fadein 3s;
   -o-animation: fadein 3s; /* Opera */
@@ -176,7 +177,6 @@
   padding-left: 20px;
   float: left;
   border-radius: 10px;
-  position: sticky;
 }
 
 .resource-container {
@@ -212,17 +212,32 @@ svg:hover {
   width: 100%;
   padding-bottom: 10px;
 }
+.slideshow-heading-container {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: peachpuff;
+  border-radius: 10px;
+}
 .slideshow-image-container {
+  /* background-color: peachpuff; */
+
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
 }
+
 .slideshow-image-container__img {
   border-radius: 5px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: peachpuff;
+
   width: 20%;
   height: 30%;
-  padding-bottom: 10px;
 }
 .beethoven-9th {
   border-radius: 5px;
@@ -239,7 +254,9 @@ svg:hover {
   position: relative;
 }
 .tooltip .tooltiptext {
-  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   visibility: hidden;
   width: auto;
   min-width: 200px;

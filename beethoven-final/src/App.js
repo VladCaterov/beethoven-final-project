@@ -8,10 +8,19 @@ import image4 from "./images/stress.png";
 import image5 from "./images/therapy.png";
 import image6 from "./images/fear-dread-pain.png";
 import image7 from "./images/horror.png";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="landing-page">
+      <div className="landing-page-button-container">
+        <Link style={{textDecoration:"None"}} to="/about">
+          <button className="landing-page-button-container__button">
+            About
+          </button>
+        </Link>
+        
+      </div>
       <Carousel>
         <InfoSection
           source={image1}

@@ -5,6 +5,7 @@ import Carousel from "nuka-carousel";
 import {Link} from "react-router-dom";
 import image1 from "../images/beethoven.jpg";
 import image2 from "../images/beethoven2.jpg";
+import image3 from "../images/beethoven3.jpg";
 
 
 const About = () => {
@@ -112,14 +113,21 @@ const About = () => {
                 </div>
                 
             </div>
+            {/* <div className="slideshow-heading-container">
+                    <h1>Beethoven Through The Eyes Of AI</h1>
+                </div> */}
             <div className="slideshow-container">
+                
                 <Carousel>
                     <div className="slideshow-image-container">
                         <img className="slideshow-image-container__img" src={image1} alt="Beethoven"/>       
-
                     </div>
                     <div className="slideshow-image-container">
                         <img className="slideshow-image-container__img" src={image2} alt="Beethoven"/>       
+
+                    </div>
+                    <div className="slideshow-image-container">
+                        <img className="slideshow-image-container__img" src={image3} alt="Beethoven"/>       
 
                     </div>
                     <div className="slideshow-image-container">
