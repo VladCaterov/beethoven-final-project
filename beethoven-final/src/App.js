@@ -38,7 +38,6 @@ function App() {
         <InfoSection source={image7} description="" audio="" />
       </Carousel>
     </div>
-  );
+  )
 }
-
 export default App;
