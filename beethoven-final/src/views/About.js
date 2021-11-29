@@ -35,11 +35,13 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            
             <div className="no-header-container">
                 <div className= "description-container">
                     <h2 className="description-container__h2">Description</h2>
-                    <div className="main-heading-border"></div>
+                     <div className="main-heading-border"></div>
                     <h3 className="description-container__h3">Why did we decide to make this website?</h3>
+                    
                     <p className="description-container__p">
                         Coming from a heavy Computer Science background we thought to combine our passion for
                         coding and the knowledge that we have gained from this course to create a truly unique
@@ -47,28 +49,21 @@ const About = () => {
                         be the best outlet to communicate our ideas and we have learned a lot throughout the 
                         process.
                     </p>
+                    
                     <h3 className="description-container__h3">Why did we pick this research?</h3>
                     <p className="description-container__p">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                        deserunt mollit anim id est laborum."
+                        We decided to research the topic of imagery associated with Beethoven's work because we were taught in class that Beethoven was one of the first composers to use emotion in his music. This lead us to look into topics regarding the emotional reception of Beethoven's work, which yielded interesting research papers.
                     </p>
+                    
                     <div className="description-row-container">
                         <h3 className="description-row-container__h3">What did we learn from this?</h3>
                         <p className="description-row-container__p">
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                            deserunt mollit anim id est laborum."
+                            From this research and media project, we learned a lot about the relationship between audio, and the emotions which work hand-in-hand with the visuals to that audio.
                         </p>
                     </div>
+                    
                     <div className="description-row-container">
-                        <h3 className="description-row-container__h3">Why we used Wombo?</h3>
+                        <h3 className="description-row-container__h3">Why did we use Wombo?</h3>
                         <p className="description-row-container__p">
                             <a href="https://www.wombo.art/" rel="noreferrer" target="_blank">Dream by Wombo</a> is an app that was created by a group of University of Toronto students
                             that creates AI-generated photos by providing a prompt and style. This provided a great and
@@ -77,7 +72,7 @@ const About = () => {
                     </div>
                     
                 </div>
-                <div className="resources-container">
+                 <div className="resources-container">
                     <div className  = "resource-container">
                         <a href="https://www.researchgate.net/publication/342523101_Emotional_Reception_of_Ludwig_van_Beethoven%27s_Music_-_The_Authors_Own_Research" rel="noreferrer" target="_blank"> 
                             <div className="tooltip">
@@ -85,20 +80,18 @@ const About = () => {
                                 <span className="tooltiptext">Emotional Reception of Ludwig van Beethoven's Music - The Authors Own Research</span>
                             </div>
                         </a>
-                        {/* <p className="resource-container__p">Emotional Reception of Ludwig van Beethoven's Music - The Authors Own Research</p> */}
+    
                     </div>
                     <div className="resource-container">
-                        {/* <a href="https://link.springer.com/content/pdf/10.1007/s10548-012-0227-0.pdf" rel="noreferrer" target="_blank">  */}
+                        
                         <a href="https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1005&context=unpresssamples" rel="noreferrer" target="_blank">
                             <div className="tooltip">
                                 {pdf_file}
-                                {/* <span className="tooltiptext">Emotions, Arousal, and Frontal Alpha Rhythm Asymmetry During Beethoven’s 5th Symphony</span> */}
+                                
                                 <span className="tooltiptext">The Critical Reception of Beethoven's Compositions by His German Contemporaries, Volume 2</span>
                             </div>
                         </a>
-                        {/* </a> */}
-
-                        {/* <p className="resource-container__p">Emotions, Arousal, and Frontal Alpha Rhythm Asymmetry During Beethoven’s 5th Symphony</p> */}
+                        
 
                     </div>
                     <div className = "resource-container">
@@ -108,12 +101,12 @@ const About = () => {
                                 <span className="tooltiptext">REMEMBER GERHARD RICHTER IN THE THUNDERSTORM OF BEETHOVEN: THE INFLUENCE OF CROSS-SENSORY COUPLING ON MEMORY, INTERCULTURAL COMMUNICATION, AND THE VERBALIZATION OF PAINTINGS AND SOUNDS</span>
                             </div>
                         </a>
-                        {/* <p className="resource-container__p">REMEMBER GERHARD RICHTER IN THE THUNDERSTORM OF BEETHOVEN: THE INFLUENCE OF CROSS-SENSORY COUPLING ON MEMORY, INTERCULTURAL COMMUNICATION, AND THE VERBALIZATION OF PAINTINGS AND SOUNDS</p> */}
+                        
                     </div>
                 </div>
-                <div className="slideshow-container">
+                {/* <div className="slideshow-container">
                     <iframe className="beethoven-9th" width="1015" height="761" src="https://www.youtube.com/embed/t3217H8JppI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
