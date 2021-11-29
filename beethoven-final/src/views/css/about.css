@@ -61,7 +61,9 @@
 }
 .head-container {
   float: left;
+  width: auto;
   position: relative;
+
   left: 0%;
 }
 .redirect-container {
@@ -71,6 +73,7 @@
   width: 150px;
   height: 150px;
 }
+
 .redirect-container__button {
   position: relative;
   top: 15px;
@@ -80,9 +83,25 @@
   background-color: peachpuff;
   border-radius: 100%;
   border-style: double;
+  box-shadow: rgba(255, 236, 236, 0.35) 2px 2px 15px;
 }
 .redirect-container__button:hover {
   background-color: rgb(240, 192, 150);
+  cursor: pointer;
+}
+.github-container {
+  float: left;
+  margin-top: 2%;
+
+  margin-left: 20px;
+}
+.github-container__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  box-shadow: rgba(255, 236, 236, 0.35) 2px 2px 15px;
+}
+.github-container__img:hover {
   cursor: pointer;
 }
 .header-container {
@@ -145,8 +164,7 @@
   margin-left: 20px;
 }
 
-.description-container__p,
-.description-row-container__p {
+.description-container__p {
   font-weight: 500;
   position: relative;
   padding-left: 2%;
@@ -155,6 +173,10 @@
 
 .description-row-container__p {
   max-width: 370px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
 .resources-container {
@@ -181,6 +203,9 @@
 svg {
   fill: peachpuff !important;
 }
+svg:hover {
+  fill: rgb(240, 192, 150) !important;
+}
 
 .resource-container__img--larger,
 .resource-container__img:hover {
@@ -188,7 +213,9 @@ svg {
   height: 220px;
   cursor: pointer;
 }
-
+.slideshow-container {
+  float: left;
+}
 .beethoven-9th {
   position: fixed;
   border-radius: 5px;
