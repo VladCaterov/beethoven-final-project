@@ -83,7 +83,7 @@ const About = () => {
                  <div className="resources-container">
                     <div className  = "resource-container">
                         <a href="https://www.researchgate.net/publication/342523101_Emotional_Reception_of_Ludwig_van_Beethoven%27s_Music_-_The_Authors_Own_Research" rel="noreferrer" target="_blank"> 
-                            <div className="tooltip">
+                            <div title="Click Here For Resource" className="tooltip">
                                 {pdf_file}
                                 <span className="tooltiptext">Emotional Reception of Ludwig van Beethoven's Music - The Authors Own Research</span>
                             </div>
@@ -93,7 +93,7 @@ const About = () => {
                     <div className="resource-container">
                         
                         <a href="https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1005&context=unpresssamples" rel="noreferrer" target="_blank">
-                            <div className="tooltip">
+                            <div title="Click Here For Resource" className="tooltip">
                                 {pdf_file}
                                 
                                 <span className="tooltiptext">The Critical Reception of Beethoven's Compositions by His German Contemporaries, Volume 2</span>
@@ -104,7 +104,7 @@ const About = () => {
                     </div>
                     <div className = "resource-container">
                         <a href="https://dspace.uni.lodz.pl/bitstream/handle/11089/9681/rela-2013-0001.pdf?sequence=1&isAllowed=y" rel="noreferrer" target="_blank"> 
-                            <div className="tooltip">
+                            <div title="Click Here For Resource" className="tooltip">
                                 {pdf_file}
                                 <span className="tooltiptext">REMEMBER GERHARD RICHTER IN THE THUNDERSTORM OF BEETHOVEN: THE INFLUENCE OF CROSS-SENSORY COUPLING ON MEMORY, INTERCULTURAL COMMUNICATION, AND THE VERBALIZATION OF PAINTINGS AND SOUNDS</span>
                             </div>
