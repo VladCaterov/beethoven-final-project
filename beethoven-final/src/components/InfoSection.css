@@ -1,62 +1,62 @@
-.wrapper{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width:100vw;
-    height:100vh;
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
-.content__audio-container{
-    align-items: center;
-    justify-content: center;
-    width:100%;
-    display: flex;
-    padding-bottom:10px;
-}
-
-.content-container{
-    height:50%;
+.content__audio-container {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding-bottom: 10px;
 }
 
-.content__image-container{
-    height:26vh;
-    width:26vw;
-    position:relative;
+.content-container {
+  height: 50%;
 }
 
-.content__info-container{
-    height:30vh;
-    width:26vw;
-    opacity: 0.6;
-    position: absolute;
-    z-index: 0;
+.content__image-container {
+  height: 26vh;
+  width: 26vw;
+  position: relative;
 }
 
-.content__info-container p{
-    color:white;
-    font-size: 20px;
-    background-color:black;
-    box-shadow: 0 0 15px 5px white;
-    font-size: 14pt;
+.content__info-container {
+  height: 30vh;
+  width: 26vw;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 0;
 }
 
-.image-container__image{
-    background-size:cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    max-width: 100%;
-    box-shadow: 0 0 15px 5px white;
+.content__info-container p {
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  box-shadow: 0 0 15px 5px white;
+  font-size: 14pt;
 }
 
-.background-div{
-    width: 83.3vw;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:fixed;
-    z-index: -1;
+.image-container__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  max-width: 100%;
+  box-shadow: 0 0 15px 5px white;
 }
 
-.background-div__blur{
-    filter:blur(8px) brightness(60%);
-    transform: scale(1.2) rotate(180deg);
+.background-div {
+  width: 83.3vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
+
+.background-div__blur {
+  filter: blur(8px) brightness(60%);
+  transform: scale(1.2) rotate(180deg);
 }
