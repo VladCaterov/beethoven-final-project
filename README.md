@@ -29,13 +29,7 @@ From these emotions, images were associated to express a deeper level of express
   Slideshow navigation is identical to that of the main page.
   
 # Demo
-  
-
-
-
-
-
-
+[![Beethoven Imagery](https://i9.ytimg.com/vi_webp/aSULksKObY8/mqdefault.webp?v=61a64c05&sqp=CNiZmY0G&rs=AOn4CLDLMb3rk9k72ILDIag8gsZrnZWviA)](https://youtu.be/aSULksKObY8)
 # Collabortors
 Ekagra Luthra: https://github.com/ekluthra
 
@@ -45,6 +39,6 @@ Ekagra Luthra: https://github.com/ekluthra
 * `nuka-carousel`
 
 # Additional Notes:
-icons used from https://iconmonstr.com/
-please navigate the resource links to some images we had sourced
+* icons used from https://iconmonstr.com/
+* please navigate the resource links to some images we had sourced
 some images sourced and created from https://app.wombo.art/
