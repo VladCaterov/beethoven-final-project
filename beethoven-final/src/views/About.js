@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 import image1 from "../images/beethoven.jpg";
 import image2 from "../images/beethoven2.jpg";
 import image3 from "../images/beethoven3.jpg";
+import moonlightSonata from "../images/Moonlight_Sonata_TradingCard.jpg"
 
 
 const About = () => {
@@ -120,6 +121,9 @@ const About = () => {
                 
                 <Carousel>
                     <div className="slideshow-image-container">
+                        <img className="slideshow-image-container__img" src={moonlightSonata} alt="Beethoven"/>       
+                    </div>
+                    <div className="slideshow-image-container">
                         <img className="slideshow-image-container__img" src={image1} alt="Beethoven"/>       
                     </div>
                     <div className="slideshow-image-container">
@@ -128,11 +132,8 @@ const About = () => {
                     </div>
                     <div className="slideshow-image-container">
                         <img className="slideshow-image-container__img" src={image3} alt="Beethoven"/>       
-
                     </div>
-                    <div className="slideshow-image-container">
-                        <iframe className="beethoven-9th"  src="https://www.youtube.com/embed/t3217H8JppI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
-                    </div>
+                
                 </Carousel>
                     
                 </div>

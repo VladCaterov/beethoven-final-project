@@ -227,7 +227,8 @@ svg:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .slideshow-image-container__img {
@@ -271,7 +272,7 @@ svg:hover {
   border-radius: 5px;
   padding: 10px 0;
 
-  top: -5px;
+  top: 10%;
   left: 110%;
 
   /* Position the tooltip */
